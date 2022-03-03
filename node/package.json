@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "starting": "node ./controlers/index.js"
+    "starting": "node ./controlers/index.js",
+    "test_db" : "node ./models/models.js"
   },
   "keywords": [],
   "author": "",
