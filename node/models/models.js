@@ -6,7 +6,7 @@
 const {Sequelize,DataTypes} = require('sequelize');
 const{database} = require('../database/db');
 
-console.log(database);
+//console.log(database);
 
 //Crear una instancia del modelo.
 
@@ -16,7 +16,7 @@ const ModeloPelicula = database.define('Pelicula',{
   content : {type: DataTypes.STRING}
 })
 
-console.log(ModeloPelicula);
+//console.log(ModeloPelicula);
 module.exports.ModeloPelicula = ModeloPelicula;
 
 
