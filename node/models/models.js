@@ -4,10 +4,9 @@
 
 
 const {Sequelize,DataTypes} = require('sequelize');
-const{database} = require('../database/db');
+const{database} = require('../database/db.js');
 
 //console.log(database);
-
 //Crear una instancia del modelo.
 
 const ModeloPelicula = database.define('Pelicula',{

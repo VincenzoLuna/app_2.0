@@ -1,4 +1,4 @@
-const {ModeloPelicula} = require('./models');
+const {ModeloPelicula} = require('./models.js');
 
 //La función para mostrar todas las instancias
 //sql: select * from table

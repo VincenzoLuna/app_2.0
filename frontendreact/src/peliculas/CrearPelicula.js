@@ -6,7 +6,7 @@ import {useState,useEffect} from 'react/cjs/react.production.min';
 import {Link} from 'react-router-dom';
 
 
-const URL = 'http://localhost:4000/movie/';
+const URL = 'http://localhost:4000/movie';
 
 
 
